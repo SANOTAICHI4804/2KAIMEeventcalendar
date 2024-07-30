@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+#titleScreen, #calendarScreen {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.colorful-title {
+    font-size: 10em;
+    text-align: center;
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.colorful-input {
+    font-size: 1.5em;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+.colorful-button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 20px;
+}
+
+.colorful-button:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+#calendar {
+    margin-top: 30px;
+}
+
+#eventForm {
+    display: none;
+    text-align: center;
+}
+
+#eventForm h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#eventForm input {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 5px 0;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
